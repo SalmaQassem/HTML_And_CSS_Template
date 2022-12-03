@@ -1,0 +1,48 @@
+:root {
+    --Navy-Color: #19283F;
+    --Red-Color: #FF3150;
+    --Yellow-Color: #FFC501;
+    --Grey-Color: #A8B9C0;
+    --White-Color:#FFFFFF;
+    --Green-Color: #00C7C0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+/*Start Components*/
+.main-btn {
+    background-color: var(--Red-Color)!important;
+    color: var(--Yellow-Color)!important;
+}
+.main-btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+/*End Components*/
+
+/* Start Navbar*/
+.navbar {
+    background-color: var(--Navy-Color);
+}
+.navbar button[class*="navbar-toggler"] {
+    border-color: var(--White-Color);
+    font-size: 25px;
+}
+.navbar button[class*="navbar-toggler"]:focus {
+    box-shadow: none;
+}
+.navbar button[aria-expanded="true"] {
+    border-color: var(--Green-Color);
+}
+.navbar button[aria-expanded="true"] + div[class*="collapse"] > .search {
+    display: none;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active,
+.navbar .search > svg{
+    color: var(--Green-Color)!important;
+}
+.navbar .search {
+    border-color: var(--Green-Color)!important;
+}
+/*End Navbar*/
