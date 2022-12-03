@@ -2,7 +2,6 @@
     --Navy-Color: #19283F;
     --Red-Color: #FF3150;
     --Yellow-Color: #FFC501;
-    --Grey-Color: #A8B9C0;
     --White-Color:#FFFFFF;
     --Green-Color: #00C7C0;
 }
@@ -46,3 +45,10 @@ body {
     border-color: var(--Green-Color)!important;
 }
 /*End Navbar*/
+.landing {
+    background-color: var(--Navy-Color);
+    height: calc(100vh - 72px);
+}
+/*Start Landing*/
+
+/*End Landing*/
