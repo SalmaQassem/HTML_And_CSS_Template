@@ -88,3 +88,32 @@ body {
     color: var(--Yellow-Color);
 }
 /*End Services*/
+
+/*Start Portfolio*/
+.portfolio {
+    background-color: var(--Light-Green-Color);
+}
+.portfolio .nav .nav-link.active {
+    background-color: var(--Red-Color);
+    color: var(--Yellow-Color)!important;
+}
+.portfolio .nav .nav-link:not([class*="active"]):hover {
+    color: var(--Red-Color)!important;
+}
+.portfolio .card {
+    padding: 5px;
+    overflow: hidden;
+}
+.portfolio .card:hover > .card-img-overlay{
+    transform: translate(5px , -50%);
+}
+.portfolio .card .card-img-overlay {
+    background-color: rgba(0, 199, 192, 0.7);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    left: 0;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    transition: 0.3s;
+}
+/*End Portfolio*/
