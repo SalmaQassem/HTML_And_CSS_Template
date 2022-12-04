@@ -4,11 +4,13 @@
     --Yellow-Color: #FFC501;
     --White-Color:#FFFFFF;
     --Green-Color: #00C7C0;
+    --Light-Green-Color: #F0F8FB;
 }
 body {
     font-family: "Roboto", sans-serif;
 }
 /*Start Components*/
+/*Button*/
 .main-btn {
     background-color: var(--Red-Color)!important;
     color: var(--Yellow-Color)!important;
@@ -16,6 +18,18 @@ body {
 .main-btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+/*heading*/
+.heading::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background-color: var(--Green-Color);
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 /*End Components*/
 
@@ -45,10 +59,32 @@ body {
     border-color: var(--Green-Color)!important;
 }
 /*End Navbar*/
+
+/*Start Landing*/
 .landing {
     background-color: var(--Navy-Color);
     height: calc(100vh - 72px);
 }
-/*Start Landing*/
-
 /*End Landing*/
+
+/*Start Services*/
+.services .card .icon-holder {
+    height: 200px;
+}
+.services .card svg {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.services .card svg[class*="number"] {
+    font-size: 12rem;
+    color: var(--Light-Green-Color);
+}
+.services .card svg[class*="icon"] {
+    font-size: 4rem;
+    color: var(--Green-Color);
+}
+.services .card h4 {
+    color: var(--Yellow-Color);
+}
+/*End Services*/
