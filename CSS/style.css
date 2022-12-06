@@ -5,6 +5,10 @@
     --White-Color:#FFFFFF;
     --Green-Color: #00C7C0;
     --Light-Green-Color: #F0F8FB;
+    --Facebook-Icon: #1877f2;
+    --Twitter-Icon: #1DA1F2;
+    --Linkedin-Icon: #00699f;
+    --Youtube-Icon: #FF0000;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -159,3 +163,31 @@ body {
     background-color: var(--Navy-Color)!important;
 }
 /*End Subscribe*/
+
+/*Start Contact*/
+.contact {
+    background-color: var(--Navy-Color);
+}
+.contact .graphberry {
+    color: var(--Green-Color);
+}
+.contact .bondi {
+    color: var(--Yellow-Color);
+}
+.contact .social li svg {
+    width: 20px;
+    height: 20px;
+}
+.contact .social li svg[class*="fa-facebook"] {
+    background-color: var(--Facebook-Icon);
+}
+.contact .social li svg[class*="fa-twitter"] {
+    background-color: var(--Twitter-Icon);
+}
+.contact .social li svg[class*="fa-linkedin"] {
+    background-color: var(--Linkedin-Icon);
+}
+.contact .social li svg[class*="fa-youtube"] {
+    background-color: var(--Youtube-Icon);
+}
+/*End Contact*/
