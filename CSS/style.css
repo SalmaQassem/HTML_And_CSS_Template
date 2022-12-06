@@ -117,3 +117,45 @@ body {
     transition: 0.3s;
 }
 /*End Portfolio*/
+
+/*Start About*/
+.about .description{
+    max-width: 500px;
+}
+.about .image > img {
+    max-width: 100%;
+}
+/*End About*/
+
+/*Start Team*/
+.team {
+    background-color: var(--Light-Green-Color);
+}
+.team .header h2 {
+    color: var(--Yellow-Color);
+}
+.team  .card h4 {
+    background-color: var(--Green-Color);
+}
+/*End Team*/
+
+/*Start Project*/
+.project {
+    background-color: var(--Navy-Color);
+}
+/*End Project*/
+
+/*Start Subscribe*/
+.subscribe {
+    background-color: var(--Yellow-Color);
+}
+.subscribe input[type="text"]::placeholder {
+    color: white;
+}
+.subscribe input[type="text"]:focus {
+    outline: none!important;
+}
+.subscribe .main-btn {
+    background-color: var(--Navy-Color)!important;
+}
+/*End Subscribe*/
