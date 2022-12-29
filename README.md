@@ -1,2 +1,3 @@
 # HTML_And_CSS_Template4
-Bondi Template using Bootstrap
+Responsive Website Contains 5 Pages: Home, Services, Portfolio, About, and Contact.
+Used Languages and Frameworks: HTML, CSS and Bootstrap5.
